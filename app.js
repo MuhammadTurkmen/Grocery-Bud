@@ -24,14 +24,14 @@ function addItem(e) {
     if(value  && !editFlag) {}
     else if(value  && editFlag) {} 
     else {
-        alert.textContent = 'empty value'
-        alert.classList.add('alert-danger')
+        
     }
 }
 
 // display alert
 function displayAlert(text, action) {
-    
+    alert.textContent = 'empty value'
+    alert.classList.add('alert-danger')
 }
 
 // ****** LOCAL STORAGE **********
