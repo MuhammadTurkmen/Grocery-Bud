@@ -16,7 +16,7 @@ let editID = ""
 // ****** EVENT LISTENERS **********
 // submit form
 form.addEventListener('submit', addItem)
-// ****** FUNCTIONS **********
+// ****** FUNCTIONS ********** 
 function addItem(e) {
     e.preventDefault()
     const value = grocery.value
