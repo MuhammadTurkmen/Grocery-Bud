@@ -32,6 +32,9 @@ function addItem(e) {
 function displayAlert(text, action) {
     alert.textContent = text
     alert.classList.add(`alert-${action}`)
+
+    // remove alert
+    
 }
 
 // ****** LOCAL STORAGE **********
