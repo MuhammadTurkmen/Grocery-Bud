@@ -17,7 +17,9 @@ let editID = ""
 // submit form
 form.addEventListener('submit', addItem)
 // ****** FUNCTIONS **********
-
+function addItem() {
+    
+}
 // ****** LOCAL STORAGE **********
 
 // ****** SETUP ITEMS **********
