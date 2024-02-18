@@ -23,7 +23,10 @@ function addItem(e) {
     const id = new Date().getTime.toString()
     if(value  && !editFlag) {}
     else if(value  && editFlag) {} 
-    else {}
+    else {
+        alert.textContent = 'empty value'
+        alert.classList.add('alert-danger')
+    }
 }
 // ****** LOCAL STORAGE **********
 
