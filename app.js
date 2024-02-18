@@ -35,7 +35,8 @@ function displayAlert(text, action) {
 
     // remove alert
     setTimeout(function(){
-
+        alert.textContent = ''
+        alert.classList.add(`alert-${action}`)
     }, 1000)
 }
 
