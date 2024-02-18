@@ -14,6 +14,7 @@ let editFlag = false
 let editID = ""
 
 // ****** EVENT LISTENERS **********
+// submit form
 
 // ****** FUNCTIONS **********
 
