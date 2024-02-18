@@ -23,7 +23,7 @@ function addItem(e) {
     const id = new Date().getTime.toString()
     if(value  && !editFlag) {
 
-    }
+    } 
     else if(value  && editFlag) {} 
     else { 
         displayAlert('please enter value', 'danger')
