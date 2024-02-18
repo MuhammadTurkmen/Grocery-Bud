@@ -34,7 +34,9 @@ function displayAlert(text, action) {
     alert.classList.add(`alert-${action}`)
 
     // remove alert
-    
+    setTimeout(function(){
+
+    }, 1000)
 }
 
 // ****** LOCAL STORAGE **********
