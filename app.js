@@ -30,8 +30,8 @@ function addItem(e) {
 
 // display alert
 function displayAlert(text, action) {
-    alert.textContent = 'empty value'
-    alert.classList.add('alert-danger')
+    alert.textContent = text
+    alert.classList.add(`alert-${action}`)
 }
 
 // ****** LOCAL STORAGE **********
