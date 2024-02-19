@@ -42,7 +42,7 @@ function addItem(e) {
                             </button>
                             </div>`
 
-        const deleteBtn = document.querySelector('.delete-btn')
+        const deleteBtn = element.querySelector('.delete-btn')
         // append child
         list.appendChild(element)
         displayAlert("item added to the list", 'success')
