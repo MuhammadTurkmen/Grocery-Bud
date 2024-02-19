@@ -94,6 +94,7 @@ function deleteItem(e) {
     if(list.children.length === 0) {
         container.classList.remove('show-container')
     }
+    displayAlert('item removed', 'danger')
 }
 // edit function
 function editItem() {
