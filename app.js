@@ -67,7 +67,10 @@ function displayAlert(text, action) {
 
 // set backto default
 function setBackToDefault() {
-
+    grocery.value = ''
+    editFlag = false
+    editID = ''
+    submitBtn.textContent = 'submit'
 } 
 // ****** LOCAL STORAGE **********
 function addToLocalStorage(id, value) {
