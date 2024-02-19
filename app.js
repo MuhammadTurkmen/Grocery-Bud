@@ -19,7 +19,6 @@ form.addEventListener('submit', addItem)
 // clear items
 clearBtn.addEventListener('click', clearItems)
 
-const deleteBtn = document.querySelector('.delete-btn')
 // ****** FUNCTIONS ********** 
 function addItem(e) {
     e.preventDefault()
@@ -42,6 +41,8 @@ function addItem(e) {
                                 <i class="fas fa-trash"></i>
                             </button>
                             </div>`
+
+        const deleteBtn = document.querySelector('.delete-btn')
         // append child
         list.appendChild(element)
         displayAlert("item added to the list", 'success')
