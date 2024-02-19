@@ -103,7 +103,7 @@ function deleteItem(e) {
 // edit function
 function editItem() {
     const element = e.currentTarget.parentElement.parentElement
-
+//   set edit item
 }
 
 // set backto default
