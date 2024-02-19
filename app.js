@@ -69,7 +69,7 @@ function displayAlert(text, action) {
 
 // clear items
 function clearItems() {
-    
+    const items = document.querySelectorAll('.grocery-item')
 }
 
 
