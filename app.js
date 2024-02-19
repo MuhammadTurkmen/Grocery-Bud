@@ -58,6 +58,10 @@ function addItem(e) {
     } else if(value  && editFlag) {
         editElement.innerHTML = value
         displayAlert('value changed ', 'success')
+        // edit local Storege 
+        editLocalStorage()
+        setBackToDefault()
+        
     } 
     else { 
         displayAlert('please enter value', 'danger')
