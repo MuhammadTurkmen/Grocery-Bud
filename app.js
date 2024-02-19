@@ -29,7 +29,7 @@ function addItem(e) {
         const atrr = document.createAttribute('data-id')
         atrr.value = id
         element.setAttributeNode(atrr)
-        element.innerHTML = `<p class="title">${}</p>
+        element.innerHTML = `<p class="title">${value}</p>
         <div class="btn-container">
           <button type="button" class="edit-btn"> 
             <i class="fas fa-edit"></i>
