@@ -107,7 +107,8 @@ function editItem() {
     editElement = e.currentTarget.parentElement.previousElementSibling
 // set form value
     grocery.value = editElement.innerHTML
-    editFlag = tru
+    editFlag = true
+    editID = element.dataset.id
 }
 
 // set backto default
