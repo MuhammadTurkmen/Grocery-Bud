@@ -92,6 +92,9 @@ function deleteItem() {
     
 }
 // edit function
+function editItem() {
+    
+}
 
 // set backto default
 function setBackToDefault() {
