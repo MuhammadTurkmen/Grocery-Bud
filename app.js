@@ -67,6 +67,12 @@ function displayAlert(text, action) {
     }, 1000)
 }
 
+// clear items
+function clearItems() {
+    
+}
+
+
 // set backto default
 function setBackToDefault() {
     grocery.value = ''
