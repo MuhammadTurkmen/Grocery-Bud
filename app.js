@@ -87,8 +87,11 @@ function clearItems() {
     // localStorage.removeItem('list')
 }
 
-// edit function
 // delete function
+function deleteItem() {
+    
+}
+// edit function
 
 // set backto default
 function setBackToDefault() {
