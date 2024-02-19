@@ -46,6 +46,7 @@ function addItem(e) {
         // add to local storage
         addToLocalStorage(id, value)
         // set back to defualt
+        setBackToDefault()
     } else if(value  && editFlag) {} 
     else { 
         displayAlert('please enter value', 'danger')
