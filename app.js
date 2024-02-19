@@ -18,6 +18,8 @@ let editID = ""
 form.addEventListener('submit', addItem)
 // clear items
 clearBtn.addEventListener('click', clearItems)
+
+const deleteBtn = document.querySelector('.delete-btn')
 // ****** FUNCTIONS ********** 
 function addItem(e) {
     e.preventDefault()
@@ -77,6 +79,7 @@ function clearItems() {
     }
     container.classList.remove('show-container')
     displayAlert('empty list', 'danger')
+    setBackToDefault()
     // localStorage.removeItem('list')
 }
 
