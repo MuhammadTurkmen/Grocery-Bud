@@ -55,7 +55,9 @@ function addItem(e) {
         addToLocalStorage(id, value)
         // set back to defualt
         setBackToDefault()
-    } else if(value  && editFlag) {} 
+    } else if(value  && editFlag) {
+        editElement.innerHTML = value
+    } 
     else { 
         displayAlert('please enter value', 'danger')
     }
