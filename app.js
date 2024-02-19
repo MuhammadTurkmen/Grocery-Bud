@@ -17,7 +17,7 @@ let editID = ""
 // submit form
 form.addEventListener('submit', addItem)
 // clear items
-clearBtn.addEventListener('click', clearItem)
+clearBtn.addEventListener('click', clearItems)
 // ****** FUNCTIONS ********** 
 function addItem(e) {
     e.preventDefault()
