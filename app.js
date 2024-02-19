@@ -66,10 +66,12 @@ function displayAlert(text, action) {
 }
 
 // set backto default
-
+function setBackToDefault() {
+    
+}
 // ****** LOCAL STORAGE **********
 function addToLocalStorage(id, value) {
-    
+
 }
 
 // ****** SETUP ITEMS **********
