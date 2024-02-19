@@ -44,6 +44,7 @@ function addItem(e) {
         // show container
         container.classList.add('show-container')
         // add to local storage
+        addToLocalStorage()
     } else if(value  && editFlag) {} 
     else { 
         displayAlert('please enter value', 'danger')
