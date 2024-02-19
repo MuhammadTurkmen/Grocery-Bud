@@ -43,8 +43,8 @@ function addItem(e) {
         displayAlert("item added to the list", 'success')
         // show container
         container.classList.add('show-container')
-    } 
-    else if(value  && editFlag) {} 
+        // add to local storage
+    } else if(value  && editFlag) {} 
     else { 
         displayAlert('please enter value', 'danger')
     }
