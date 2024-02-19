@@ -59,7 +59,7 @@ function addItem(e) {
         editElement.innerHTML = value
         displayAlert('value changed ', 'success')
         // edit local Storege 
-        editLocalStorage(editID)
+        editLocalStorage(editID, value)
         setBackToDefault()
         
     } 
@@ -133,5 +133,8 @@ function addToLocalStorage(id, value) {
 
 function removeFromLocalStorege(id) {
 
+}
+function editLocalStorage(id, value) {
+    
 }
 // ****** SETUP ITEMS **********
