@@ -26,7 +26,7 @@ function addItem(e) {
         // add class
         element.classList.add('grocery-item')
         // add id
-        
+        const atrr = document.createAttribute('data-id')
     } 
     else if(value  && editFlag) {} 
     else { 
