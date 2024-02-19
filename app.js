@@ -38,6 +38,9 @@ function addItem(e) {
                                 <i class="fas fa-trash"></i>
                             </button>
                             </div>`
+        // append child
+        list.appendChild(element)
+        displayAlert
     } 
     else if(value  && editFlag) {} 
     else { 
