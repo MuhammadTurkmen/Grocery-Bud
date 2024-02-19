@@ -105,6 +105,8 @@ function editItem() {
     const element = e.currentTarget.parentElement.parentElement
 //   set edit item
     editElement = e.currentTarget.parentElement.previousElementSibling
+// set form value
+    grocery.value = editElement.innerHTML
 }
 
 // set backto default
