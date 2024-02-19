@@ -30,14 +30,14 @@ function addItem(e) {
         atrr.value = id
         element.setAttributeNode(atrr)
         element.innerHTML = `<p class="title">${value}</p>
-        <div class="btn-container">
-          <button type="button" class="edit-btn"> 
-            <i class="fas fa-edit"></i>
-          </button>
-          <button type="button" class="delete-btn">
-            <i class="fas fa-trash"></i>
-          </button>
-        </div>`
+                            <div class="btn-container">
+                            <button type="button" class="edit-btn"> 
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button type="button" class="delete-btn">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            </div>`
     } 
     else if(value  && editFlag) {} 
     else { 
