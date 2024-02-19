@@ -104,6 +104,7 @@ function deleteItem(e) {
 function editItem() {
     const element = e.currentTarget.parentElement.parentElement
 //   set edit item
+    editElement = e.currentTarget.parentElement.previousElementSibling
 }
 
 // set backto default
