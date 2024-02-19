@@ -97,7 +97,7 @@ function deleteItem(e) {
     displayAlert('item removed', 'danger')
     setBackToDefault()
     // remove from local storege
-    removeFromLocalStorege(id)
+    // removeFromLocalStorege(id)
 }
 // edit function
 function editItem() {
@@ -116,4 +116,7 @@ function addToLocalStorage(id, value) {
 
 }
 
+function removeFromLocalStorege(id) {
+    
+}
 // ****** SETUP ITEMS **********
