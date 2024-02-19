@@ -89,7 +89,7 @@ function clearItems() {
 
 // delete function
 function deleteItem(e) {
-    const element = e.currentTarget
+    const element = e.currentTarget.parentElement.parentElement
 }
 // edit function
 function editItem() {
