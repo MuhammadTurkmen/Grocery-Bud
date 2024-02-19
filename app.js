@@ -57,6 +57,7 @@ function addItem(e) {
         setBackToDefault()
     } else if(value  && editFlag) {
         editElement.innerHTML = value
+        displayAlert('value changed ', 'success')
     } 
     else { 
         displayAlert('please enter value', 'danger')
