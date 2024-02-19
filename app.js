@@ -59,7 +59,7 @@ function addItem(e) {
         editElement.innerHTML = value
         displayAlert('value changed ', 'success')
         // edit local Storege 
-        editLocalStorage()
+        editLocalStorage(editID)
         setBackToDefault()
         
     } 
