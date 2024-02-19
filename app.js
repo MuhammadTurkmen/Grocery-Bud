@@ -40,7 +40,7 @@ function addItem(e) {
                             </div>`
         // append child
         list.appendChild(element)
-        displayAlert
+        displayAlert("item added to the list", 'success')
     } 
     else if(value  && editFlag) {} 
     else { 
