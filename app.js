@@ -22,7 +22,7 @@ function addItem(e) {
     const value = grocery.value 
     const id = new Date().getTime.toString() 
     if(value  && !editFlag) {
-
+        const element = document.createElement('article')
     } 
     else if(value  && editFlag) {} 
     else { 
