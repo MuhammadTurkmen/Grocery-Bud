@@ -90,6 +90,7 @@ function clearItems() {
 // delete function
 function deleteItem(e) {
     const element = e.currentTarget.parentElement.parentElement
+    const id = element.dataset.id
     list.removeChild(element)
     if(list.children.length === 0) {
         container.classList.remove('show-container')
@@ -117,6 +118,6 @@ function addToLocalStorage(id, value) {
 }
 
 function removeFromLocalStorege(id) {
-    
+
 }
 // ****** SETUP ITEMS **********
