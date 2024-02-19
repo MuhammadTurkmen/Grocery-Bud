@@ -109,6 +109,7 @@ function editItem() {
     grocery.value = editElement.innerHTML
     editFlag = true
     editID = element.dataset.id
+    submitBtn.textContent = 'edit'
 }
 
 // set backto default
