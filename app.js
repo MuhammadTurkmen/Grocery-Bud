@@ -28,6 +28,7 @@ function addItem(e) {
         // add id
         const atrr = document.createAttribute('data-id')
         atrr.value = id
+        element.setAttributeNode(atrr)
     } 
     else if(value  && editFlag) {} 
     else { 
