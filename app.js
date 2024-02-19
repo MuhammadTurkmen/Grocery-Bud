@@ -88,8 +88,8 @@ function clearItems() {
 }
 
 // delete function
-function deleteItem() {
-    
+function deleteItem(e) {
+    const element = e.currentTarget
 }
 // edit function
 function editItem() {
