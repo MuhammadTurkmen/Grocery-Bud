@@ -133,7 +133,7 @@ function addToLocalStorage(id, value) {
 
 function removeFromLocalStorege(id) {
 
-}
+} 
 function editLocalStorage(id, value) {
 
 }
