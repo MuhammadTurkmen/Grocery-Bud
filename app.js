@@ -108,7 +108,7 @@ function deleteItem(e) {
     // removeFromLocalStorege(id)
 }
 // edit function
-function editItem() {
+function editItem(e) {
     const element = e.currentTarget.parentElement.parentElement
 //   set edit item
     editElement = e.currentTarget.parentElement.previousElementSibling
@@ -128,13 +128,13 @@ function setBackToDefault() {
 } 
 // ****** LOCAL STORAGE **********
 function addToLocalStorage(id, value) {
-
+    const grocery = {id, value}
 }
 
 function removeFromLocalStorege(id) {
 
 }
 function editLocalStorage(id, value) {
-    
+
 }
 // ****** SETUP ITEMS **********
