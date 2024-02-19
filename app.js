@@ -16,6 +16,8 @@ let editID = ""
 // ****** EVENT LISTENERS **********
 // submit form
 form.addEventListener('submit', addItem)
+// clear items
+
 // ****** FUNCTIONS ********** 
 function addItem(e) {
     e.preventDefault()
