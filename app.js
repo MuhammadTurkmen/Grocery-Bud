@@ -139,7 +139,7 @@ function removeFromLocalStorege(id) {
 
     items = items.filter(function(item) {
         if(item.id !== id) {
-            
+            return item
         }
     })
 }  
