@@ -27,7 +27,7 @@ function addItem(e) {
     const value = grocery.value 
     const id = new Date().getTime.toString() 
     if(value  && !editFlag) {
-        
+        creatListItem(id, value)
         // display alert
         displayAlert("item added to the list", 'success')
         // show container
