@@ -166,7 +166,11 @@ function getLocalStorage() {
 function setupItems() {
     let items = getLocalStorage()
     if(items.length > 0 ) {
-        
+
     }
+}
+
+function creatListItem() {
+    
 }
  
