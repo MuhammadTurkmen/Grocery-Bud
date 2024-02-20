@@ -147,7 +147,7 @@ function removeFromLocalStorege(id) {
 function editLocalStorage(id, value) {
     let items = getLocalStorage()
     items = items.map(function(item) {
-        
+        if(item.id === id)
     })
 }
 
