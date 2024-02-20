@@ -152,6 +152,8 @@ function editLocalStorage(id, value) {
         }
         return item
     })
+    localStorage.setItem('list', JSON.stringify(items))
+
 }
 
 function getLocalStorage() {
