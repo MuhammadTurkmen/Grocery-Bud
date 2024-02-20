@@ -147,6 +147,7 @@ function setupItems() {
         items.forEach(function(item) {
             creatListItem(item.id, item.value)
         })
+        container.classList.add('show-container')
     }
 }
 
