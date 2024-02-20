@@ -91,7 +91,7 @@ function clearItems() {
     container.classList.remove('show-container')
     displayAlert('empty list', 'danger')
     setBackToDefault()
-    // localStorage.removeItem('list')
+    localStorage.removeItem('list')
 }
 
 // delete function
