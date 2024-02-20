@@ -150,6 +150,7 @@ function editLocalStorage(id, value) {
         if(item.id === id) {
             item.value = value
         }
+        return item
     })
 }
 
