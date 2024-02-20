@@ -28,6 +28,7 @@ function addItem(e) {
     const id = new Date().getTime.toString() 
     if(value  && !editFlag) {
         
+        // display alert
         displayAlert("item added to the list", 'success')
         // show container
         container.classList.add('show-container')
