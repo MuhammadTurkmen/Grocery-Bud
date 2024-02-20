@@ -162,4 +162,11 @@ function getLocalStorage() {
     return localStorage.getItem('list') ? JSON.parse(localStorage.getItem('list')) : []
 }
 // ****** SETUP ITEMS **********
+
+function setupItems() {
+    let items = getLocalStorage()
+    if(items.length > 0 ) {
+        
+    }
+}
  
