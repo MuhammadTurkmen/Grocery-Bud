@@ -135,7 +135,7 @@ function addToLocalStorage(id, value) {
 }
 
 function removeFromLocalStorege(id) {
-
+    let items = getLocalStorage()
 }  
 function editLocalStorage(id, value) {
 
