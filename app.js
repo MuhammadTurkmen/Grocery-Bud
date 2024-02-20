@@ -140,5 +140,9 @@ function removeFromLocalStorege(id) {
 function editLocalStorage(id, value) {
 
 }
+
+function getLocalStorage() {
+    
+}
 // ****** SETUP ITEMS **********
  
