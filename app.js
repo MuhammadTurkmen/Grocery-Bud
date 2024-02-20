@@ -145,7 +145,7 @@ function setupItems() {
     let items = getLocalStorage()
     if(items.length > 0 ) {
         items.forEach(function(item) {
-            
+            creatListItem(item.id, item.value)
         })
     }
 }
